@@ -6,6 +6,7 @@ import Resume from './routes/Resume';
 import Contact from './routes/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

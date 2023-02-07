@@ -14,6 +14,7 @@ function Footer() {
     <a href="https://github.com/ThaivyTran"><img src={Github} alt="github" /></a>
     <a href="https://www.instagram.com/ipoppedyocherry"><img src={Instagram} alt="ig" /></a>
     <a href="https://www.facebook.com/thaivy.tran"><img src={Facebook} alt="fb" /></a>
+    <br></br>
     </div>
   )
 }
