@@ -4,7 +4,7 @@ import resume from '../documents/Resume.pdf';
 
 function Resume() {
   return (
-    <div>Resume
+    <div><h1>- Resume -»</h1>
       <br></br>
       <Document file={resume} >
       <Page pageNumber={1} /> 

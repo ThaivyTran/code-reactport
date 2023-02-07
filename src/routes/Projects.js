@@ -8,7 +8,7 @@ import Work6 from '../images/Work-6.png';
 
 function Projects() {
   return (
-    <div>Projects
+    <div><h1>- Projects -»</h1>
       <br></br>
     <a href ="https://github.com/ThaivyTran/code-refactor"><img src={Work1} alt="work1" /></a>
     <a href ="https://github.com/ThaivyTran/code-portfolio/"><img src={Work2} alt="work2" /></a>
