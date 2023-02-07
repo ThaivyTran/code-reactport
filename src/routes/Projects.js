@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/App.css';
 import Work1 from '../images/Work-1.png';
 import Work2 from '../images/Work-2.png';
 import Work3 from '../images/Work-3.png';
@@ -9,7 +10,7 @@ import Work6 from '../images/Work-6.png';
 function Projects() {
   return (
     <div className="container mt-5">
-      <h1 className="mb-3">- Projects -»</h1>
+      <h1 className="mb-3">- Projects -</h1>
       <br></br>
       <div className="mb-3">
         <a href ="https://github.com/ThaivyTran/code-refactor"><img src={Work1} alt="work1" /></a>

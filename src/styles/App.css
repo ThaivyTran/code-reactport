@@ -1,0 +1,69 @@
+body {
+  background-image: url('https://i.ibb.co/K6qkJn6/v617batch2-bb-01-technology.png');
+  background-size: 2733px 3284px;
+}
+
+div {
+  color: #6f0cfb;
+  font-size: 18px;
+  font-family: "CutiveMono-Regular", "Georgia" ;
+  font-size: 18px;
+}
+
+::selection { 
+	background-color: #6f0cfb;
+	color: white;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #268aee;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+i {
+  font-size: 50px;
+  margin: 10px;
+}
+
+img {
+  opacity:0.5; /* when not hovered over img transparency is 50% */
+  transition: 1s ease; /* timing for transition */
+  max-height: 150px;
+  display: inline-block;
+  border: 3px solid #268aee;
+  padding: 4px;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+img:hover {
+  opacity: 1;
+  transition: 1s ease; 
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.img {
+  align-items: center;
+  justify-content: center;
+}

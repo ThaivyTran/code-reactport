@@ -1,11 +1,12 @@
 import React from 'react';
 import Img from '../images/about.png';
+import '../styles/App.css';
 
 function About() {
   return (
     <div className="container mt-5">
-    <h1 className="mb-3">- About Me -»</h1>
-    <img src={Img} alt="pic" height="200"/>
+    <h1 className="mb-3">- About Me -</h1>
+    <img src={Img} alt="pic" />
     <div className="mb-3"><p><b>Name:</b> Thaivy Tran (She/her)</p>
     <p><b>Age:</b> 25 </p>
     <p><b>Likes:</b> Tech, Auto, Sneakers, Travel and Noodles </p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/App.css';
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
@@ -15,7 +16,7 @@ const Contact = () => {
   }
   return (
     <div className="container mt-5">
-      <h1 className="mb-3">- Contact -»</h1>
+      <h1 className="mb-3">- Contact -</h1>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
@@ -35,7 +36,7 @@ const Contact = () => {
           </label>
           <textarea className="form-control" id="message" required />
         </div>
-        <button className="btn btn-danger" type="submit">
+        <button className="btn btn-primary" type="submit">
           {formStatus}
         </button>
       </form>

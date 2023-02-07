@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/App.css';
 
 function Resume() {
   const onButtonClick = () => {
@@ -17,7 +18,7 @@ function Resume() {
   }
   return (
     <div className="container mt-5">
-      <h1 className="mb-3">- Resume -»</h1>
+      <h1 className="mb-3">- Resume -</h1>
       <br></br>
         <div className="mb-3">
           <p>Click on below button to download PDF file</p>

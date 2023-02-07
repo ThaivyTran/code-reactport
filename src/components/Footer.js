@@ -1,19 +1,15 @@
 import React from 'react';
-import '../styles/Footer.css';
-import Facebook from '../images/Facebook.png';
-import Github from '../images/Github.png';
-import Gmail from '../images/Gmail.png';
-import Instagram from '../images/Instagram.png';
+import '../styles/App.css';
 
 function Footer() {
   return (
     <div className='footer'>
     <br></br>
     <br></br>
-    <a href = "mailto: Tran.Thaivy1997@gmail.com"><img src={Gmail} alt="email" /></a>
-    <a href="https://github.com/ThaivyTran"><img src={Github} alt="github" /></a>
-    <a href="https://www.instagram.com/ipoppedyocherry"><img src={Instagram} alt="ig" /></a>
-    <a href="https://www.facebook.com/thaivy.tran"><img src={Facebook} alt="fb" /></a>
+    <a href = "mailto: Tran.Thaivy1997@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://github.com/ThaivyTran"><i class="fa-brands fa-github-alt"></i></a>
+    <a href="https://www.instagram.com/ipoppedyocherry"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.facebook.com/thaivy.tran"><i class="fa-brands fa-square-facebook"></i></a>
     <br></br>
     </div>
   )

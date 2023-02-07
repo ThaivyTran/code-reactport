@@ -1,7 +1,7 @@
 import React from 'react';
 // Import links {About, Projects, Resume, Contact}
 import { Link } from 'react-router-dom';
-import '../styles/Navbar.css';
+import '../styles/App.css';
 
 function Navbar() {
     return (
