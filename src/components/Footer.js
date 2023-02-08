@@ -11,6 +11,7 @@ function Footer() {
     <a href="https://www.instagram.com/ipoppedyocherry"><i class="fa-brands fa-instagram"></i></a>
     <a href="https://www.facebook.com/thaivy.tran"><i class="fa-brands fa-square-facebook"></i></a>
     <br></br>
+    <p>Created by Thaivy Tran</p>
     </div>
   )
 }

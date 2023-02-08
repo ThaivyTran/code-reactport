@@ -72,6 +72,10 @@ img:hover {
   text-align: center;
 }
 
+.footer p {
+  color: hotpink;
+}
+
 .img {
   align-items: center;
   justify-content: center;
