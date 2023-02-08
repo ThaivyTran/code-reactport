@@ -13,12 +13,24 @@ function Projects() {
       <h1 className="mb-3">- Projects -</h1>
       <br></br>
       <div className="mb-3">
-        <a href ="https://github.com/ThaivyTran/code-refactor"><img src={Work1} alt="work1" /></a>
-        <a href ="https://github.com/ThaivyTran/code-portfolio/"><img src={Work2} alt="work2" /></a>
-        <a href ="https://github.com/ThaivyTran/code-password/"><img src={Work3} alt="work3" /></a>
-        <a href ="https://github.com/ThaivyTran/code-quiz/"><img src={Work4} alt="work4" /></a>
-        <a href ="https://github.com/ThaivyTran/code-agenda/"><img src={Work5} alt="work5" /></a>
-        <a href ="https://github.com/ThaivyTran/code-weather/"><img src={Work6} alt="work6" /></a>
+        <h3>Portfolio</h3><img src={Work2} alt="work2" />
+        <a href ="https://github.com/ThaivyTran/code-portfolio/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://thaivytran.github.io/code-portfolio/"><i class="fa-solid fa-globe"></i></a>
+        <h3>Password</h3><img src={Work3} alt="work3" />
+        <a href ="https://github.com/ThaivyTran/code-password/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://thaivytran.github.io/code-password/"><i class="fa-solid fa-globe"></i></a>
+        <h3>Quiz App</h3><img src={Work4} alt="work4" />
+        <a href ="https://github.com/ThaivyTran/code-quiz/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://thaivytran.github.io/code-quiz/"><i class="fa-solid fa-globe"></i></a>
+        <h3>Agenda</h3><img src={Work5} alt="work5" />
+        <a href ="https://github.com/ThaivyTran/code-agenda/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://thaivytran.github.io/code-agenda/"><i class="fa-solid fa-globe"></i></a>
+        <h3>Weather</h3><img src={Work6} alt="work6" />
+        <a href ="https://github.com/ThaivyTran/code-weather/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://thaivytran.github.io/code-weather/"><i class="fa-solid fa-globe"></i></a>
+        <h3>Taco Truck</h3><img src={Work1} alt="work1" />
+        <a href ="https://github.com/ThaivyTran/project-1"><i class="fa-brands fa-github"></i></a>
+        <a href="https://thaivytran.github.io/project-1/"><i class="fa-solid fa-globe"></i></a>
       </div>
       <br></br>
     </div>
