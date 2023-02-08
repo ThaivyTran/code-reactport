@@ -33,6 +33,15 @@ div {
   font-size: 25px;
 }
 
+.navbar a:hover {
+  color: #6f0cfb;
+}
+
+.navbar .active {
+  color: hotpink;
+  font-size: 30px;
+}
+
 h1 {
   font-size: 25px;
 }

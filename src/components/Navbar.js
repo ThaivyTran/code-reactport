@@ -1,16 +1,21 @@
 import React from 'react';
 // Import links {About, Projects, Resume, Contact}
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/App.css';
 
-function Navbar() {
+export const Navbar = () => {
+  const navLinkStyles = ({ isActive }) => {
+    return {
+      fontWeight: isActive ? 'bold' : 'normal',
+    }
+  }
     return (
-      <div className="navbar">
+      <div className="navbar" id="navbar">
         <div className="links">
-            <Link to="/">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/contact">Contact</Link>
+            <NavLink style={navLinkStyles} to="/">About</NavLink>
+            <NavLink style={navLinkStyles}to="/projects">Projects</NavLink>
+            <NavLink style={navLinkStyles}to="/resume">Resume</NavLink>
+            <NavLink style={navLinkStyles}to="/contact">Contact</NavLink>
         </div>
       </div>    
     );
