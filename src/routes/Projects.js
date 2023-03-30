@@ -6,6 +6,7 @@ import Work3 from '../images/Work-3.png';
 import Work4 from '../images/Work-4.png';
 import Work5 from '../images/Work-5.png';
 import Work6 from '../images/Work-6.png';
+import Work7 from '../images/Work-7.png';
 
 function Projects() {
   return (
@@ -31,6 +32,9 @@ function Projects() {
         <h3>Taco Truck</h3><img src={Work1} alt="work1" />
         <a href ="https://github.com/ThaivyTran/project-1" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
         <a href="https://thaivytran.github.io/project-1/" target="_blank" rel="noreferrer"><i class="fa-solid fa-globe"></i></a>
+        <h3>Study Buddy</h3><img src={Work7} alt="work7" />
+        <a href ="https://github.com/EliasAllan/study-buddy" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://study-buddy-dream-team.herokuapp.com/" target="_blank" rel="noreferrer"><i class="fa-solid fa-globe"></i></a>
       </div>
       <br></br>
     </div>
